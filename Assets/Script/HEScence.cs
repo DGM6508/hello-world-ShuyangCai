@@ -12,9 +12,11 @@ public class HEScence : MonoBehaviour {
     Rect menuAreaNormalized;
     string menuPage = "main";
 
-    void Start()
+    void Awake()
     {
+        Screen.lockCursor = false;
 
+        Cursor.visible = true;
         menuAreaNormalized =
             new Rect(menuArea.x * Screen.width - (menuArea.width * 0.5f), menuArea.y * Screen.height - (menuArea.height * 0.5f), menuArea.width, menuArea.height);
     }

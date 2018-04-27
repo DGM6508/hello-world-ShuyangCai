@@ -338,7 +338,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 114996499}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12.288, y: 1.76, z: -0.059999943}
+  m_LocalPosition: {x: 12.45, y: 1.76, z: -0.059999943}
   m_LocalScale: {x: 4.5, y: 4.4999995, z: 4.4999995}
   m_Children: []
   m_Father: {fileID: 0}
@@ -668,15 +668,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4799648766058356, guid: 058e302e87f6a284bb8f212e43d427be, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 6.95
+      value: 6.63
       objectReference: {fileID: 0}
     - target: {fileID: 4799648766058356, guid: 058e302e87f6a284bb8f212e43d427be, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0.975
+      value: 2.97
       objectReference: {fileID: 0}
     - target: {fileID: 4799648766058356, guid: 058e302e87f6a284bb8f212e43d427be, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -5.2745986
+      value: -4.04
       objectReference: {fileID: 0}
     - target: {fileID: 4799648766058356, guid: 058e302e87f6a284bb8f212e43d427be, type: 2}
       propertyPath: m_LocalRotation.x
@@ -701,6 +701,18 @@ Prefab:
     - target: {fileID: 1416740523459256, guid: 058e302e87f6a284bb8f212e43d427be, type: 2}
       propertyPath: m_Name
       value: Cube (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4799648766058356, guid: 058e302e87f6a284bb8f212e43d427be, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4799648766058356, guid: 058e302e87f6a284bb8f212e43d427be, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4799648766058356, guid: 058e302e87f6a284bb8f212e43d427be, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 058e302e87f6a284bb8f212e43d427be, type: 2}
@@ -781,17 +793,17 @@ Prefab:
         type: 2}
       propertyPath: leverOrder.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 512506070}
     - target: {fileID: 114408577684537482, guid: 68b7ab82618be8b46a172f98532a7696,
         type: 2}
       propertyPath: leverOrder.Array.data[1]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1590729358}
     - target: {fileID: 114408577684537482, guid: 68b7ab82618be8b46a172f98532a7696,
         type: 2}
       propertyPath: leverOrder.Array.data[2]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 738923000}
     - target: {fileID: 114408577684537482, guid: 68b7ab82618be8b46a172f98532a7696,
         type: 2}
       propertyPath: teleporter
@@ -979,15 +991,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4799648766058356, guid: 058e302e87f6a284bb8f212e43d427be, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 4.02
+      value: -3.55
       objectReference: {fileID: 0}
     - target: {fileID: 4799648766058356, guid: 058e302e87f6a284bb8f212e43d427be, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0.975
+      value: 2.97
       objectReference: {fileID: 0}
     - target: {fileID: 4799648766058356, guid: 058e302e87f6a284bb8f212e43d427be, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 5.31
+      value: 4.09
       objectReference: {fileID: 0}
     - target: {fileID: 4799648766058356, guid: 058e302e87f6a284bb8f212e43d427be, type: 2}
       propertyPath: m_LocalRotation.x
@@ -1012,6 +1024,18 @@ Prefab:
     - target: {fileID: 1416740523459256, guid: 058e302e87f6a284bb8f212e43d427be, type: 2}
       propertyPath: m_Name
       value: Cube (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4799648766058356, guid: 058e302e87f6a284bb8f212e43d427be, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4799648766058356, guid: 058e302e87f6a284bb8f212e43d427be, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4799648766058356, guid: 058e302e87f6a284bb8f212e43d427be, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 058e302e87f6a284bb8f212e43d427be, type: 2}
@@ -2033,15 +2057,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4799648766058356, guid: 058e302e87f6a284bb8f212e43d427be, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 6.987144
+      value: 5.04
       objectReference: {fileID: 0}
     - target: {fileID: 4799648766058356, guid: 058e302e87f6a284bb8f212e43d427be, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0.975
+      value: 2.97
       objectReference: {fileID: 0}
     - target: {fileID: 4799648766058356, guid: 058e302e87f6a284bb8f212e43d427be, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 1.7812189
+      value: 5.47
       objectReference: {fileID: 0}
     - target: {fileID: 4799648766058356, guid: 058e302e87f6a284bb8f212e43d427be, type: 2}
       propertyPath: m_LocalRotation.x
@@ -2062,6 +2086,18 @@ Prefab:
     - target: {fileID: 4799648766058356, guid: 058e302e87f6a284bb8f212e43d427be, type: 2}
       propertyPath: m_RootOrder
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4799648766058356, guid: 058e302e87f6a284bb8f212e43d427be, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4799648766058356, guid: 058e302e87f6a284bb8f212e43d427be, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4799648766058356, guid: 058e302e87f6a284bb8f212e43d427be, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 058e302e87f6a284bb8f212e43d427be, type: 2}

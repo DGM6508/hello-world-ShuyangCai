@@ -6,6 +6,13 @@ public class FTS : MonoBehaviour {
 
     public string playerTag;
     // Use this for initialization
+
+    private void Awake()
+    {
+        Screen.lockCursor = true;
+
+        Cursor.visible = false;
+    }
     private void OnTriggerEnter(Collider other)
     {
         //       Debug.Log("enter");
