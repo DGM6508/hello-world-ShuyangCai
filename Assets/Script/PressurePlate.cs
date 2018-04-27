@@ -12,11 +12,17 @@ public class PressurePlate : MonoBehaviour {
 
     bool intrigger = true;
 
+    ParticleSystem particle;
+    public GameObject teleportermom;
 
 
-    void Start () {
+    void Awake () {
         plateAnim = GetComponent<Animator>();
-	}
+        particle = teleporter.GetComponent<ParticleSystem>();
+
+        particle.Stop();
+        teleportermom.SetActive(false);
+    }
 
     private void OnTriggerEnter(Collider other)
     {
@@ -32,6 +38,11 @@ public class PressurePlate : MonoBehaviour {
             {
                 StartCoroutine(WaitingForOpen());
 
+                teleportermom.SetActive(true);
+                particle.Play();
+
+
+
             }
         }
     }
@@ -42,7 +53,7 @@ public class PressurePlate : MonoBehaviour {
         {
             intrigger = true;
             plateAnim.SetTrigger("press");
-           GM.pressureNum = GM.pressureNum -1;
+            GM.pressureNum = GM.pressureNum -1;
             Debug.Log("exit"+GM.pressureNum);
             
             if (GM.pressureNum < 2)

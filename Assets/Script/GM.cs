@@ -14,9 +14,7 @@ public class GM : MonoBehaviour {
     bool hasChecked = false;
     public List<GameObject> leverOrder = new List<GameObject>();
     public List<GameObject> selectedOrder = new List<GameObject>();
-    public GameObject teleporter;
-    ParticleSystem particle;
-    public GameObject teleportermom;
+
 
 
     private void Awake()
@@ -26,10 +24,7 @@ public class GM : MonoBehaviour {
 
 
         
-        particle = teleporter.GetComponent<ParticleSystem>();
 
-        particle.Stop();
-        teleportermom.SetActive(false);
         if (instance != null)
         {
             Destroy(gameObject);
@@ -134,12 +129,7 @@ public class GM : MonoBehaviour {
             DoorClose();
         }
         */
-        if (pressureNum==4)
-        {
-            teleportermom.SetActive(true);
-            particle.Play();
-            
-        }
+
 
 
 

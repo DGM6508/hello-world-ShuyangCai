@@ -193,7 +193,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca805181fc2726147abdc3b958956a2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  arrowVelocity: 20
+  arrowVelocity: 50
   arrowLife: 2
 --- !u!135 &135573795598048564
 SphereCollider:

@@ -32,7 +32,7 @@ public class MouseRo : MonoBehaviour
     }
 
 
-    void Update()
+    void LateUpdate()
     {
         if (axes == RotationAxes.MouseX)
         {
